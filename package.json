@@ -1,0 +1,16 @@
+{
+  "name": "9press-puppeteer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --timeout=30000 ./test"
+  },
+  "author": "Dong Hoang",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "puppeteer": "^2.0.0"
+  }
+}
